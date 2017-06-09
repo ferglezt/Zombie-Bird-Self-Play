@@ -60,7 +60,7 @@ public class GameWorld {
 		bird.update(delta);
 		scroller.update(delta);
 
-        /*int a = 17;
+        int a = 17;
         int radiusScale = 10;
 
         boolean hasPassedP1 = Intersector.overlaps(
@@ -109,7 +109,7 @@ public class GameWorld {
             (nextPipe == 3 && bird.getY() > scroller.getPipe3().getSkullDown().getY() - a)) {
 
             bird.onClick();
-        }*/
+        }
 
 
 		if (scroller.collides(bird) && bird.isAlive()) {
